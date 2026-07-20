@@ -1,0 +1,2 @@
+class SystemPlayer < Player
+end

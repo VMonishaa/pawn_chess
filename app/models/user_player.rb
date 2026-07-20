@@ -1,0 +1,2 @@
+class UserPlayer < Player
+end
