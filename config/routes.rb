@@ -11,4 +11,16 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  namespace :api do
+    namespace :v1 do
+      resources :games, only: %i[create show] do
+        member do
+          patch :pause
+          patch :resume
+          post :restart
+        end
+        resources :moves, only: :create
+      end
+    end
+  end
 end
