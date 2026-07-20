@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  board: one
+  game_player: one
+  color: MyString
+  row: 1
+  col: 1
+  status: 1
+
+two:
+  board: two
+  game_player: two
+  color: MyString
+  row: 1
+  col: 1
+  status: 1
